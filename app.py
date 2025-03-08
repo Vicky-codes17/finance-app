@@ -139,7 +139,7 @@ if "show_payment_options" in st.session_state and st.session_state.show_payment_
         upi_id = st.sidebar.text_input("Enter your UPI ID", placeholder="test@upi")
         if upi_id and amount_to_pay > 0:
             # Sample Payment Link
-            payment_link = f"https://example.com/payment-success?amount={amount_to_pay}"
+            payment_link = f"https://vicky-codes17.github.io/payment_page/" #={amount_to_pay}
             st.sidebar.markdown(
                 f"""
                 <a href="{payment_link}" target="_blank">
