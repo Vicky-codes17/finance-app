@@ -10,7 +10,7 @@ Finance App is a personal finance management tool built using Streamlit. It help
 - 🏦 **Savings Monitoring**: Keep track of savings over time.
 - 📂 **Data Persistence**: Transactions are stored in a CSV file.
 - 🤖 **Machine Learning Model**: Predicts spending trends using a trained model.
-- 💳 **UPI Payment Integration**: Supports real payment transactions.
+- 💳 **UPI Payment Integration**: Supports real payment transaction.
 
 ## 📁 Project Structure
 ```
