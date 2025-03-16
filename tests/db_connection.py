@@ -11,7 +11,7 @@ try:
         dbname= finance_app,
         user= postgresql,
         password= 07042006,
-        hostpostgresql,
+        host= postgresql,
         port= 5432
     )
     print("Connection established")
