@@ -8,11 +8,11 @@ DB_port = "5432"
 
 try:
     conn = psycopg2.connect(
-        dbname=DB_name,
-        user=DB_user,
-        password=DB_password,
-        host=DB_host,
-        port=DB_port
+        dbname= finance_app,
+        user= postgresql,
+        password= 07042006,
+        hostpostgresql,
+        port= 5432
     )
     print("Connection established")
 except psycopg2.Error as e:
